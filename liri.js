@@ -4,7 +4,7 @@ var Concert = require("./concert.js")
 
 var Movie = require("./movie.js")
 
-//var Song = require("./song")
+// var Song = require("./song")
 
 var input = process.argv;
 
@@ -12,7 +12,7 @@ var search = input[2];
 
 var conSearch = input.slice(3).join("")
 
-var songSearch = input.slice(3).join("+")
+var songSearch = input.slice(3).join(" ")
 
 var movSearch = input.slice(3).join("+")
 
