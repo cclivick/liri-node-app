@@ -9,10 +9,18 @@ function songQuery(songSearch) {
         if (err) {
           return console.log('Error occurred: ' + err);
         }
-      // for(var i = 0; i < data.tracks.items.length; i++) {
-      // console.log(JSON.stringify(data.tracks.href.items[i]));
-      // } 
-      console.log(data.tracks.items);
+        for(var i = 0; i < data.tracks.items.length; i++) {
+        var songData = [
+          "SONG TITLE: " + data.tracks.items[i].name,
+          "\nARTISTS: " + data.tracks.items[i].artists[0].name,
+          "\nLINK: " + data.tracks.items[i].href,
+          "\nALBUM: " + data.tracks.items[i].album.name,
+          "\n------------------------------------"
+        ]
+        
+        console.log(songData.join(" "))
+      }
+      //console.log(data.tracks.items[0].name);
       }); 
     };
 
