@@ -1,10 +1,9 @@
 require("dotenv").config();
+var songQuery = require("./song.js")
 
 var Concert = require("./concert.js")
 
 var Movie = require("./movie.js")
-
-// var Song = require("./song")
 
 var input = process.argv;
 
@@ -18,16 +17,14 @@ var movSearch = input.slice(3).join("+")
 
 var concert = new Concert();
 
-//var spotify = new Spotify();
-
 var movie = new Movie();
 
 if(search === "concert-this") {
     concert.findshow(conSearch)
 }
-// if(search === "spotify-this-song") {
-//     spotify.search(songSearch)
-// }
+if(search === "spotify-this-song") {
+    songQuery(songSearch)
+}
 if(search === "movie-this") {
     movie.findMovie(movSearch)
 }
