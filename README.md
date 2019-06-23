@@ -12,7 +12,7 @@ Users can look up concerts for artists of their choice. Typing "node liri concer
 
 ## movie-this
 
-Users can look up information on movies of their choice. Typing "node liri movie-this [movie title]" into the command line will provide users with the following info on that movie
+Users can look up information on movies of their choice. Typing "node liri movie-this [movie title]" into the command line will provide users with the following info on that movie:
   - Title of the movie.
   - Year the movie came out.
   - IMDB Rating of the movie.
@@ -21,6 +21,7 @@ Users can look up information on movies of their choice. Typing "node liri movie
   - Language of the movie.
   - Plot of the movie.
   - Actors in the movie.
+  
  This feature fetches data from the OMDB API.
  
  ### Example
