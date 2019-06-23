@@ -13,14 +13,14 @@ Users can look up concerts for artists of their choice. Typing "node liri concer
 ## movie-this
 
 Users can look up information on movies of their choice. Typing "node liri movie-this [movie title]" into the command line will provide users with the following info on that movie
-  -Title of the movie.
-  -Year the movie came out.
-  -IMDB Rating of the movie.
-  -Rotten Tomatoes Rating of the movie.
-  -Country where the movie was produced.
-  -Language of the movie.
-  -Plot of the movie.
-  -Actors in the movie.
+  - Title of the movie.
+  - Year the movie came out.
+  - IMDB Rating of the movie.
+  - Rotten Tomatoes Rating of the movie.
+  - Country where the movie was produced.
+  - Language of the movie.
+  - Plot of the movie.
+  - Actors in the movie.
  This feature fetches data from the OMDB API.
  
  ### Example
