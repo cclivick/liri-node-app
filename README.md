@@ -28,5 +28,20 @@ Users can look up information on movies of their choice. Typing "node liri movie
  
  ![liri-movie-gif](https://user-images.githubusercontent.com/46388110/59980307-90a91800-95b9-11e9-94f2-9db09a63f50d.gif)
 
+## spotify-this-song
 
+Users can look up information on a song of their choice. Typing "node liri spotify-this-song [song title]" into the command line will provide users with:
+
+  - The artist's name.
+  - The name of the album the song is found on.
+  - A link to the song on spotify.
+ 
+This feature utilizes Spotify's API to fetch song data. A personal Spotify API key is required for this application to work for other developers.
+
+### Example
+
+![liri-spotify-gif](https://user-images.githubusercontent.com/46388110/59980490-51c89180-95bc-11e9-8172-36b7d32dc7fe.gif)
+
+
+NOTE: Axios NPM package used for API calls.
 
